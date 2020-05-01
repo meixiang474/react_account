@@ -1,0 +1,42 @@
+.home-wrapper{
+  width: 70%;
+  margin: 30px auto 0;
+}
+
+.logo-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  background: #efefef;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px
+}
+
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-area {
+  background: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
